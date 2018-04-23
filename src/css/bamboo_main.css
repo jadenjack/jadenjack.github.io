@@ -1,0 +1,102 @@
+.mainDiv{
+	display:block;
+	text-align:center;
+	margin:auto;
+}
+.mainDiv:before{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .3;
+	
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-image:url("../images/bamboo_index.jpg");
+	background-position: left;
+	background-size:cover;
+}
+.center-of-page{
+	position:relative;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;
+}
+div.HowToUseDiv{
+	width:calc(154px * 4 + 12px * 3);
+	
+}
+.HowToUse{
+	margin-top:40px;
+	width:calc(154px * 4 + 12px * 3);
+}
+
+.howtouse-button{
+	height:50px;
+	width:100px;
+	position: absolute;
+	background-image:url("../images/what-is-bamboo-forest.png");
+	background-size:100% 100%;
+	z-index: 1;
+	right:0px;
+	
+}
+#mainHeading{
+	padding-top:82px;
+}
+
+input#keyword{
+	top:70px;
+	position:relative;
+	width:calc(154px * 4 + 12px * 3);
+	height:45px;
+}
+
+#keyword{
+	width:332px;
+	height:30px;
+	padding-left:8px;
+	padding-right:8px;
+	word-wrap: break-word;
+}
+
+#hotTopicDiv{
+	height: 284px;
+	width:100%;
+	position: relative;
+	top:100px;
+}
+
+#hotTopicTileWrapper{
+	/* tile width : 154, padding 4px */
+	width:calc(151.5px * 4 + 12px * 3);
+	position: relative;
+	text-align: center;
+	margin:auto;
+}
+.hotTopicTile{
+	height:128px;
+	width: 154px;
+	display:inline-block;
+	background-color:rgb(250,250,250);
+	box-sizing:border-box;
+	font-family:airal,sans-serif;
+	font-size:12px;
+	margin:1px;
+	position:relative;
+}
+
+.border-tilewrapper{
+	border:4px solid;
+	border-color:green;
+}
+.border-tiles{
+	border:3px solid;
+	border-color:greenyellow;
+}
