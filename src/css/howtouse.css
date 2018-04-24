@@ -65,3 +65,8 @@
 	padding-bottom:10px;
 	font-size:40px;	
 }
+
+input[type=submit] {
+	width: 200px;  height: 50px;
+	font-size:20px;
+}
