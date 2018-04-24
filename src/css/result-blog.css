@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Song Myung', serif;
+    font-weight: bold;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    background: #f1f1f1;
+}   
+
+.mainDiv{
+	display:block;
+	text-align:center;
+	margin:auto;
+}
+.mainDiv:before{
+	content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: .3;
+	
+	width:100%;
+	height:100%;
+	background-repeat: no-repeat;
+	background-image:url("../images/bamboo_index.jpg");
+	background-position: left;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* Header/Blog Title */
+
+.header {
+    height:70px;
+    font-size: 20px;
+    text-align: center;
+    
+    margin:auto;
+}
+
+.header h2{
+    display:inline;
+}
+.header-left{
+    width:20%;
+    float:left;
+    height:100%;
+    background-color:white;
+}
+.header-right{
+    width: 79%;
+    height: 100%;
+    float:left;
+    text-align:left;
+    margin-left:10px;
+    padding-left:10px;
+    background-color:white;
+}
+.keyword-title{
+    font-size:20px;
+}
+
+/* Create two unequal columns that floats next to each other */
+
+/* Right column */
+.left-side-bar {
+    position: relative;
+    float: left;
+    width: 20%;
+    padding-top:10px
+}
+
+/* Left column */
+.rightside {
+    
+    overflow: hidden;
+    position: relative;
+    height: 90%;
+    min-height:500px;
+    width:79%;
+    padding-left:10px;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.contents{
+    background-color:white;
+    height: 30%;
+    left:0;
+    top:0;
+    margin-top:10px;
+}
+
+.contents > h2{
+    margin:0;
+    height:50px;
+    background-color:rgb(226, 223, 223);
+    text-align:left;
+    align-items: center;
+    padding-left:10px;
+    display: flex;
+
+    border-bottom:2px grey solid;
+}
+
+.contents >h5{
+    margin:0;
+    height:20px;
+    background-color:rgb(241, 232, 232);
+    text-align:left;
+    align-items: center;
+    padding-left:10px;
+    display: flex;
+
+    border-bottom:2px grey solid;
+}
+
+.contents >p{
+    margin:0;
+    padding:20px;
+    text-align:left;
+    left:0;
+    top:0;
+}
+
+.card-profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 30vh;
+    text-align: center;
+    position:relative;
+    
+	border:4px solid;
+	border-color:green; 
+}
+
+.profile-info-wrapper{
+    height: 50%;
+    width:auto;
+    display: block;
+    border:3px solid;
+    border-color:greenyellow;
+    border-bottom:1.5px;
+    border-bottom-color:greenyellow;
+}
+
+.user_id{
+    height: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin:auto;
+    margin-top:15px;
+}
+.user_edit-profile{
+    height: 50%;
+    position: relative;
+    vertical-align: middle;
+    margin:auto;
+
+}
+.profile-option-wrapper{
+    height: 50%;
+    width:auto;
+    display:block;
+    border:3px solid;
+    border-color:greenyellow;
+}
+.profile-option{
+    display:inline;
+}
+.popular-post{
+}
+.popular-keyword{
+    background-color: rgb(152, 247, 129);
+    width: 100%;
+    padding: 20px;
+}
+.contact-us{
+}
+
+.favicon-facebook{
+    height:25px;
+    width:25px;
+    background-color:white;
+}
+
+.card-profile-image{
+    width:50%;
+    height: 100%;
+    left:0;
+    top:0;
+    float:left;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+.border-tilewrapper{
+	border:4px solid;
+	border-color:green;
+}
+.border-tiles{
+	border:3px solid;
+	border-color:greenyellow;
+}
